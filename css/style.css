@@ -1,0 +1,53 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.my-drag,
+.drop-area {
+  margin-top: 50px;
+  width: 100%;
+  height: 350px;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.drag-item {
+  border: 1px solid gray;
+  width: 15%;
+  margin: 10px;
+  height: 150px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 150px;
+}
+
+.drop-area .drop-area-item {
+  width: 33%;
+  min-height: 150px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+.drop-area .drop-area-item span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
